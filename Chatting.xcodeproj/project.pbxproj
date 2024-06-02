@@ -13,6 +13,16 @@
 		A0DA1EAB2C0BDC760081D0A9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1EAA2C0BDC760081D0A9 /* Base */; };
 		A0DA1EAD2C0BDC770081D0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1EAC2C0BDC770081D0A9 /* Assets.xcassets */; };
 		A0DA1EB02C0BDC770081D0A9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1EAF2C0BDC770081D0A9 /* Base */; };
+		A0DA1EB82C0BDCA20081D0A9 /* ChattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1EB72C0BDCA20081D0A9 /* ChattingData.swift */; };
+		A0DA1EBE2C0BDE5E0081D0A9 /* TravelTalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1EBD2C0BDE5E0081D0A9 /* TravelTalk.storyboard */; };
+		A0DA1EC52C0BE1AB0081D0A9 /* TravelTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1EC42C0BE1AB0081D0A9 /* TravelTalkViewController.swift */; };
+		A0DA1EC82C0BE25C0081D0A9 /* TravelTalkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1EC62C0BE25C0081D0A9 /* TravelTalkTableViewCell.swift */; };
+		A0DA1EC92C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1EC72C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib */; };
+		A0DA1ECC2C0D1E2F0081D0A9 /* ReuseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1ECB2C0D1E2F0081D0A9 /* ReuseProtocol.swift */; };
+		A0DA1ECF2C0D2B440081D0A9 /* UILable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1ECE2C0D2B440081D0A9 /* UILable+Extension.swift */; };
+		A0DA1ED12C0D2B6A0081D0A9 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1ED02C0D2B6A0081D0A9 /* String+Extenstion.swift */; };
+		A0DA1ED32C0D32EF0081D0A9 /* Chatting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1ED22C0D32EF0081D0A9 /* Chatting.storyboard */; };
+		A0DA1ED52C0D33090081D0A9 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1ED42C0D33090081D0A9 /* ChattingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		A0DA1EAC2C0BDC770081D0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0DA1EAF2C0BDC770081D0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0DA1EB12C0BDC770081D0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DA1EB72C0BDCA20081D0A9 /* ChattingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingData.swift; sourceTree = "<group>"; };
+		A0DA1EBD2C0BDE5E0081D0A9 /* TravelTalk.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TravelTalk.storyboard; sourceTree = "<group>"; };
+		A0DA1EC42C0BE1AB0081D0A9 /* TravelTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTalkViewController.swift; sourceTree = "<group>"; };
+		A0DA1EC62C0BE25C0081D0A9 /* TravelTalkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TravelTalkTableViewCell.swift; path = Chatting/TravelTalk/TravelTalkTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A0DA1EC72C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TravelTalkTableViewCell.xib; path = Chatting/TravelTalk/TravelTalkTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		A0DA1ECB2C0D1E2F0081D0A9 /* ReuseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseProtocol.swift; sourceTree = "<group>"; };
+		A0DA1ECE2C0D2B440081D0A9 /* UILable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+Extension.swift"; sourceTree = "<group>"; };
+		A0DA1ED02C0D2B6A0081D0A9 /* String+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
+		A0DA1ED22C0D32EF0081D0A9 /* Chatting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chatting.storyboard; sourceTree = "<group>"; };
+		A0DA1ED42C0D33090081D0A9 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,11 @@
 		A0DA1EA22C0BDC760081D0A9 /* Chatting */ = {
 			isa = PBXGroup;
 			children = (
+				A0DA1ECD2C0D2B2F0081D0A9 /* Extension */,
+				A0DA1EC12C0BE05A0081D0A9 /* Cell */,
+				A0DA1EBA2C0BDDF20081D0A9 /* TravelTalk */,
+				A0DA1EBC2C0BDE2D0081D0A9 /* Chatting */,
+				A0DA1EB92C0BDCB20081D0A9 /* Data */,
 				A0DA1EA32C0BDC760081D0A9 /* AppDelegate.swift */,
 				A0DA1EA52C0BDC760081D0A9 /* SceneDelegate.swift */,
 				A0DA1EA72C0BDC760081D0A9 /* ViewController.swift */,
@@ -63,8 +88,53 @@
 				A0DA1EAC2C0BDC770081D0A9 /* Assets.xcassets */,
 				A0DA1EAE2C0BDC770081D0A9 /* LaunchScreen.storyboard */,
 				A0DA1EB12C0BDC770081D0A9 /* Info.plist */,
+				A0DA1ECB2C0D1E2F0081D0A9 /* ReuseProtocol.swift */,
 			);
 			path = Chatting;
+			sourceTree = "<group>";
+		};
+		A0DA1EB92C0BDCB20081D0A9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA1EB72C0BDCA20081D0A9 /* ChattingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0DA1EBA2C0BDDF20081D0A9 /* TravelTalk */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA1EBD2C0BDE5E0081D0A9 /* TravelTalk.storyboard */,
+				A0DA1EC42C0BE1AB0081D0A9 /* TravelTalkViewController.swift */,
+			);
+			path = TravelTalk;
+			sourceTree = "<group>";
+		};
+		A0DA1EBC2C0BDE2D0081D0A9 /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA1ED22C0D32EF0081D0A9 /* Chatting.storyboard */,
+				A0DA1ED42C0D33090081D0A9 /* ChattingViewController.swift */,
+			);
+			path = Chatting;
+			sourceTree = "<group>";
+		};
+		A0DA1EC12C0BE05A0081D0A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA1EC62C0BE25C0081D0A9 /* TravelTalkTableViewCell.swift */,
+				A0DA1EC72C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A0DA1ECD2C0D2B2F0081D0A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA1ECE2C0D2B440081D0A9 /* UILable+Extension.swift */,
+				A0DA1ED02C0D2B6A0081D0A9 /* String+Extenstion.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +195,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DA1ED32C0D32EF0081D0A9 /* Chatting.storyboard in Resources */,
 				A0DA1EAD2C0BDC770081D0A9 /* Assets.xcassets in Resources */,
 				A0DA1EB02C0BDC770081D0A9 /* Base in Resources */,
+				A0DA1EBE2C0BDE5E0081D0A9 /* TravelTalk.storyboard in Resources */,
 				A0DA1EAB2C0BDC760081D0A9 /* Base in Resources */,
+				A0DA1EC92C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DA1ECF2C0D2B440081D0A9 /* UILable+Extension.swift in Sources */,
 				A0DA1EA82C0BDC760081D0A9 /* ViewController.swift in Sources */,
+				A0DA1ECC2C0D1E2F0081D0A9 /* ReuseProtocol.swift in Sources */,
+				A0DA1EB82C0BDCA20081D0A9 /* ChattingData.swift in Sources */,
+				A0DA1EC52C0BE1AB0081D0A9 /* TravelTalkViewController.swift in Sources */,
 				A0DA1EA42C0BDC760081D0A9 /* AppDelegate.swift in Sources */,
+				A0DA1ED52C0D33090081D0A9 /* ChattingViewController.swift in Sources */,
 				A0DA1EA62C0BDC760081D0A9 /* SceneDelegate.swift in Sources */,
+				A0DA1EC82C0BE25C0081D0A9 /* TravelTalkTableViewCell.swift in Sources */,
+				A0DA1ED12C0D2B6A0081D0A9 /* String+Extenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +378,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +388,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeoyeo.Chatting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +411,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +421,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeoyeo.Chatting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
