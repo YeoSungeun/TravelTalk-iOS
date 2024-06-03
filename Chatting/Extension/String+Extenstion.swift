@@ -20,12 +20,12 @@ extension String {
         return dateString
     }
     
-    func formatDateChat(date: String) -> String {
+    static func formatDateChat(date: String) -> String {
         let dateformatter = DateFormatter()
         dateformatter.dateFormat = "yyyy-MM-dd HH:mm"
         let date = dateformatter.date(from: date)// Date로 변환
 
-        dateformatter.dateFormat = "HH:mm aa"
+        dateformatter.dateFormat = "hh:mm a"
         let dateString = dateformatter.string(from: date!) // Date String으로 변환
 
         return dateString

@@ -23,6 +23,10 @@
 		A0DA1ED12C0D2B6A0081D0A9 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1ED02C0D2B6A0081D0A9 /* String+Extenstion.swift */; };
 		A0DA1ED32C0D32EF0081D0A9 /* Chatting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1ED22C0D32EF0081D0A9 /* Chatting.storyboard */; };
 		A0DA1ED52C0D33090081D0A9 /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1ED42C0D33090081D0A9 /* ChattingViewController.swift */; };
+		A0DA1F042C0E23700081D0A9 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1F032C0E23700081D0A9 /* UserTableViewCell.xib */; };
+		A0DA1F052C0E23700081D0A9 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1F022C0E23700081D0A9 /* UserTableViewCell.swift */; };
+		A0DA1F082C0E23E20081D0A9 /* OtherPersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DA1F072C0E23E20081D0A9 /* OtherPersonTableViewCell.xib */; };
+		A0DA1F092C0E23E20081D0A9 /* OtherPersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA1F062C0E23E20081D0A9 /* OtherPersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		A0DA1ED02C0D2B6A0081D0A9 /* String+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
 		A0DA1ED22C0D32EF0081D0A9 /* Chatting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chatting.storyboard; sourceTree = "<group>"; };
 		A0DA1ED42C0D33090081D0A9 /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		A0DA1F022C0E23700081D0A9 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		A0DA1F032C0E23700081D0A9 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		A0DA1F062C0E23E20081D0A9 /* OtherPersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPersonTableViewCell.swift; sourceTree = "<group>"; };
+		A0DA1F072C0E23E20081D0A9 /* OtherPersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherPersonTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 			children = (
 				A0DA1EC62C0BE25C0081D0A9 /* TravelTalkTableViewCell.swift */,
 				A0DA1EC72C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib */,
+				A0DA1F022C0E23700081D0A9 /* UserTableViewCell.swift */,
+				A0DA1F032C0E23700081D0A9 /* UserTableViewCell.xib */,
+				A0DA1F062C0E23E20081D0A9 /* OtherPersonTableViewCell.swift */,
+				A0DA1F072C0E23E20081D0A9 /* OtherPersonTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -196,8 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0DA1ED32C0D32EF0081D0A9 /* Chatting.storyboard in Resources */,
+				A0DA1F082C0E23E20081D0A9 /* OtherPersonTableViewCell.xib in Resources */,
 				A0DA1EAD2C0BDC770081D0A9 /* Assets.xcassets in Resources */,
 				A0DA1EB02C0BDC770081D0A9 /* Base in Resources */,
+				A0DA1F042C0E23700081D0A9 /* UserTableViewCell.xib in Resources */,
 				A0DA1EBE2C0BDE5E0081D0A9 /* TravelTalk.storyboard in Resources */,
 				A0DA1EAB2C0BDC760081D0A9 /* Base in Resources */,
 				A0DA1EC92C0BE25C0081D0A9 /* TravelTalkTableViewCell.xib in Resources */,
@@ -213,8 +227,10 @@
 			files = (
 				A0DA1ECF2C0D2B440081D0A9 /* UILable+Extension.swift in Sources */,
 				A0DA1EA82C0BDC760081D0A9 /* ViewController.swift in Sources */,
+				A0DA1F052C0E23700081D0A9 /* UserTableViewCell.swift in Sources */,
 				A0DA1ECC2C0D1E2F0081D0A9 /* ReuseProtocol.swift in Sources */,
 				A0DA1EB82C0BDCA20081D0A9 /* ChattingData.swift in Sources */,
+				A0DA1F092C0E23E20081D0A9 /* OtherPersonTableViewCell.swift in Sources */,
 				A0DA1EC52C0BE1AB0081D0A9 /* TravelTalkViewController.swift in Sources */,
 				A0DA1EA42C0BDC760081D0A9 /* AppDelegate.swift in Sources */,
 				A0DA1ED52C0D33090081D0A9 /* ChattingViewController.swift in Sources */,
